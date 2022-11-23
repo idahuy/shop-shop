@@ -68,6 +68,10 @@ function App() {
                 path="*" 
                 element={<NoMatch />} 
               />
+              <Route
+                path="/success"
+                element={<Success />}
+              />
             </Routes>
           </StoreProvider>
         </div>
